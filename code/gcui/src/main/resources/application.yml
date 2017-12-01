@@ -1,0 +1,15 @@
+server:
+  port: 9091
+spring:
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/gc
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+profiles:
+  active: dev
